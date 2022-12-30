@@ -26,8 +26,7 @@ def parse_args():
                         default='template.html')
     parser.add_argument(
         '-o', help='output filename. Default is inputfile_email.html')
-    args = parser.parse_args()
-    return args
+    return parser.parse_args()
 
 
 def create_HTML(config):
